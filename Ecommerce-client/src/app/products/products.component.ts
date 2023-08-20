@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Observable } from 'rxjs';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-products',
@@ -9,16 +11,12 @@ export class ProductsComponent implements OnInit {
 
   products: any;
 
-  constructor() { }
+  constructor(private httpClient: HttpClient) { }
 
   ngOnInit(): void {
-    /*
-    this.products = [
-      {"title":"titolo1", "description":"descrizione1", "price":1, "imageUrl":"https://cdn.pixabay.com/photo/2016/05/31/12/42/red-button-1426817_960_720.png"},
-      {"title":"titolo2", "description":"descrizione2", "price":2, "imageUrl":"https://cdn.pixabay.com/photo/2016/05/31/12/42/red-button-1426817_960_720.png"},
-      {"title":"titolo3", "description":"descrizione3", "price":3, "imageUrl":"https://cdn.pixabay.com/photo/2016/05/31/12/42/red-button-1426817_960_720.png"},
-    ];*/
-    
+    this.httpClient.get<any>("http://localhost:8080/products").subscribe(data => {
+      this.products = data;
+    });
   }
 
 }
