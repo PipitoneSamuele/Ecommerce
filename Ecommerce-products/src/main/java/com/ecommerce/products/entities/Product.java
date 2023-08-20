@@ -7,14 +7,17 @@ public class Product {
     private String description;
     private double rating;
 
+    private String imageUrl;
+
     public Product() {
     }
 
-    public Product(String title, double amount, String description, double rating) {
+    public Product(String title, double amount, String description, double rating, String imageUrl) {
         this.title = title;
         this.amount = amount;
         this.description = description;
         this.rating = rating;
+        this.imageUrl = imageUrl;
     }
 
     public String getTitle() {
