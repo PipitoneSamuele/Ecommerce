@@ -10,6 +10,7 @@ export class ProductComponent implements OnInit {
   @Input() title: string;
   @Input() description: string;
   @Input() price: any;
+  @Input() imageUrl: string;
 
   constructor() { }
 
