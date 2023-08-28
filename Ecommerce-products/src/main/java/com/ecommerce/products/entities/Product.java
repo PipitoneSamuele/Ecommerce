@@ -6,18 +6,35 @@ public class Product {
     private double amount;
     private String description;
     private double rating;
+    private double price;
+
+    public double getPrice() {
+        return price;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
+    }
+
+    public String getImageUrl() {
+        return imageUrl;
+    }
+
+    public void setImageUrl(String imageUrl) {
+        this.imageUrl = imageUrl;
+    }
 
     private String imageUrl;
 
     public Product() {
     }
 
-    public Product(String title, double amount, String description, double rating, String imageUrl) {
+    public Product(String title, double amount, String description, double rating, double price) {
         this.title = title;
         this.amount = amount;
         this.description = description;
         this.rating = rating;
-        this.imageUrl = imageUrl;
+        this.price = price;
     }
 
     public String getTitle() {
