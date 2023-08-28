@@ -1,8 +1,8 @@
 # Ecommerce App
 
-## Open problems
-I'm having problems with the CORS policy, i tryed everything i saw online but nothing worked. As a temporary
-solution i installed an extension to block the CORS policy, and finally everything worked
+## Open problems and TODOs
+- I'm having problems with the CORS policy, i tryed everything i saw online but nothing worked. As a temporary solution i installed an extension to block the CORS policy, and finally everything worked
+- Evaluate using github actions to automate the Docker pipeline
 
 ## How to dockerize
 - Build a correct Dockerfile
