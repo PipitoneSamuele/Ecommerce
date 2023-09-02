@@ -1,0 +1,100 @@
+[{
+  "_id": {
+    "$oid": "64f1b3968c9f7f3be1a4bdef"
+  },
+  "title": "Cassa",
+  "amount": 44.99,
+  "description": "Cassa per musica",
+  "rating": 4.4,
+  "price": 1
+},
+{
+  "_id": {
+    "$oid": "64f1b3a78c9f7f3be1a4bdf0"
+  },
+  "title": "Palla",
+  "amount": 4.99,
+  "description": "Palla da calcio",
+  "rating": 4.2,
+  "price": 2
+},
+{
+  "_id": {
+    "$oid": "64f1b3b58c9f7f3be1a4bdf1"
+  },
+  "title": "Ventilatore",
+  "amount": 29.99,
+  "description": "Ventilatore per casa",
+  "rating": 3.8,
+  "price": 3
+},
+{
+  "_id": {
+    "$oid": "64f1b3c38c9f7f3be1a4bdf2"
+  },
+  "title": "Iphone 12",
+  "amount": 1200,
+  "description": "Best phone out there",
+  "rating": 4.6,
+  "price": 4
+},
+{
+  "_id": {
+    "$oid": "64f1b3d18c9f7f3be1a4bdf3"
+  },
+  "title": "Samsung s22",
+  "amount": 1049.99,
+  "description": "Best phone out there",
+  "rating": 4.6,
+  "price": 5
+},
+{
+  "_id": {
+    "$oid": "64f1b3df8c9f7f3be1a4bdf4"
+  },
+  "title": "Cassa",
+  "amount": 44.99,
+  "description": "Cassa per musica",
+  "rating": 4.4,
+  "price": 1
+},
+{
+  "_id": {
+    "$oid": "64f1b3ec8c9f7f3be1a4bdf5"
+  },
+  "title": "Palla",
+  "amount": 4.99,
+  "description": "Palla da calcio",
+  "rating": 4.2,
+  "price": 2
+},
+{
+  "_id": {
+    "$oid": "64f1b3f78c9f7f3be1a4bdf6"
+  },
+  "title": "Ventilatore",
+  "amount": 29.99,
+  "description": "Ventilatore per casa",
+  "rating": 3.8,
+  "price": 3
+},
+{
+  "_id": {
+    "$oid": "64f1b4038c9f7f3be1a4bdf7"
+  },
+  "title": "Iphone 12",
+  "amount": 1200,
+  "description": "Best phone out there",
+  "rating": 4.6,
+  "price": 4
+},
+{
+  "_id": {
+    "$oid": "64f1b40f8c9f7f3be1a4bdf8"
+  },
+  "title": "Samsung s22",
+  "amount": 1049.99,
+  "description": "Best phone out there",
+  "rating": 4.6,
+  "price": 5
+}]
