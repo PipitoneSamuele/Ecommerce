@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "64f370e23a71aa61ee34f6b1"
+  },
+  "name": "Marco",
+  "surname": "Castagna",
+  "password": "pass1",
+  "username": "cast",
+  "age": 18,
+  "email": "cast@testmail.com",
+  "role": 0
+},
+{
+  "_id": {
+    "$oid": "64f370e23a71aa61ee34f6b2"
+  },
+  "name": "Samuele",
+  "surname": "Pigna",
+  "password": "admin",
+  "username": "admin",
+  "age": 25,
+  "email": "s.pigna@testmail.com",
+  "role": 1
+},
+{
+  "_id": {
+    "$oid": "64f370e23a71aa61ee34f6b3"
+  },
+  "name": "Sara",
+  "surname": "Venti",
+  "password": "pass1",
+  "username": "vent",
+  "age": 31,
+  "email": "vent@testmail.com",
+  "role": 0
+}]
