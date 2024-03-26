@@ -1,4 +1,4 @@
-package com.ecommerce.products.db;
+package com.ecommerce.users.db;
 
 public class DbUtils {
 

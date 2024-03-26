@@ -19,6 +19,7 @@ public class DbTesting {
             MongoCollection<Product> productsCollection = db.getCollection("products", Product.class);
 
             FindIterable<Product> products = productsCollection.find();
+            @SuppressWarnings("rawtypes")
             MongoCursor cursor = products.cursor();
             while(cursor.hasNext()) {
                 Product p = (Product) cursor.next();
